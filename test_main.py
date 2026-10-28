@@ -62,6 +62,14 @@ class BookingSystemTests(unittest.TestCase):
         with self.assertRaises(BookingError):
             self.system.book_appointment("P1", "D1", unknown, self.now)
 
+    def test_slot_starting_exactly_now_is_not_available_or_bookable(self) -> None:
+        slot_at_now = TimeSlot(self.now)
+        self.system.offer_slot("D1", slot_at_now)
+
+        self.assertNotIn(slot_at_now, self.system.view_available_slots("D1", self.now))
+        with self.assertRaises(BookingError):
+            self.system.book_appointment("P1", "D1", slot_at_now, self.now)
+
     def test_enforce_upcoming_appointment_limit(self) -> None:
         self.assertEqual(MAX_UPCOMING_APPOINTMENTS, 3)
         self.system.book_appointment("P1", "D1", self.slot_a, self.now)
@@ -92,6 +100,15 @@ class BookingSystemTests(unittest.TestCase):
         self.system.accept_appointment("D1", appointment.appointment_id)
         with self.assertRaises(BookingError):
             self.system.decline_appointment("D1", appointment.appointment_id)
+
+    def test_different_doctor_cannot_decide_appointment(self) -> None:
+        appointment = self.system.book_appointment("P1", "D1", self.slot_a, self.now)
+        other_doctor = Doctor("D2", "Dr. Omar Khaled")
+        self.system.add_doctor(other_doctor)
+
+        with self.assertRaises(BookingError):
+            self.system.accept_appointment("D2", appointment.appointment_id)
+        self.assertEqual(appointment.status, AppointmentStatus.PENDING)
 
     def test_past_appointments_do_not_count_as_upcoming(self) -> None:
         past_slot = TimeSlot(datetime(2026, 10, 27, 10, 0, 0))
