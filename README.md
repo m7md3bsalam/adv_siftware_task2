@@ -4,7 +4,7 @@ Educational in-memory Python program for booking doctor appointments. A patient 
 
 This is a software-engineering lab, not a production medical system.
 
-**N = 3** is the value selected for this submission. Confirm it with the instructor if the assignment provides a team-specific value.
+**N = 3** was confirmed with the instructor.
 
 ## Team
 
@@ -13,7 +13,9 @@ This is a software-engineering lab, not a production medical system.
 | 20240256 | Sayed Mamdouh | `sayed` | [#2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2) |
 | 20242296 | Mohammed Abdelsalam | `mohammed` | [#1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) |
 
-Conflict Drill: UNCLAIMED — complete with both team members and record their names after the real drill.
+Peer-review comments have been exchanged: Sayed reviewed [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1), and Mohammed commented on [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2).
+
+Conflict Drill: **NOT YET COMPLETE** — Mohammed has a local draft on `conflict-drill-mohammed`; Sayed's independent conflicting edit and the joint resolution are still pending. Do not mark the drill complete until both team members perform and resolve the real conflict.
 
 ## GitHub Actions
 
@@ -21,7 +23,7 @@ The workflow in `.github/workflows/ci.yml` compiles the code, runs `python -m un
 
 [![CI](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml/badge.svg)](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml)
 
-GitHub Actions passed on the initial push. The CI badge reports the latest workflow status.
+The latest recorded GitHub Actions run on `main` after Sayed's merge passed.
 
 ## How to run
 
@@ -112,7 +114,6 @@ Declined appointments do not occupy slots and do not count toward N.
 
 The assignment expects each member to use their own branch and pull request, review a teammate's PR with a real comment, and complete a Conflict Drill. Those steps are **not** simulated here.
 
-1. Confirm the selected N = 3 with the instructor if the assignment provides a team-specific value.
-2. Each member opens their own branch and pull request, then replace the pending entries above with the actual PR links.
-3. Each member leaves a real review comment on a teammate's PR.
-4. Complete the Conflict Drill with real PRs, then replace `UNCLAIMED` with the participating names.
+1. Both team members have branches and merged pull requests, linked in the team table above.
+2. Sayed reviewed Mohammed's PR, and Mohammed left a comment on Sayed's PR.
+3. Complete the Conflict Drill with both team members using real conflicting PR changes. Only after resolving the conflict should you record the participants and mark the drill complete.

@@ -18,7 +18,7 @@ No official starter template was used. The instructor stated that no template is
 
 - The workspace `advsoft_task` contained no project files.
 - It was not a Git repository.
-- No assigned value of N was found. **Provisional N = 3** was chosen and documented. This must be confirmed against the instructor's board.
+- At initial implementation, no assigned value of N was found, so **N = 3** was documented as provisional. It was subsequently confirmed with the instructor, as noted under Remaining limitations.
 - `python` (Microsoft Store alias) was not installed. `C:\msys64\ucrt64\bin\python.exe` reported **Python 3.14.8**.
 - Git **2.45.1** was available.
 - `gh` was not installed. The Cursor origin MCP namespace was in an error state, and `mcp_auth` did not complete within 30 seconds, so no GitHub repository was created from this session.
@@ -83,9 +83,10 @@ GitHub Actions was **not** verified (no remote yet). No pull request URL exists 
 
 ## Remaining limitations
 
-- N is provisional.
-- Team names, IDs, branches, PR links, reviews, and the Conflict Drill are still TBD/UNCLAIMED.
-- No GitHub remote, pull request, or CI badge was verified in this journal's implementation phase.
+- N = 3 was subsequently confirmed with the instructor; the requirements, use cases, implementation, and README now record that confirmation.
+- Team branches and PRs were subsequently created and merged: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2). Sayed reviewed PR #1, and Mohammed left a comment on PR #2.
+- The real two-person Conflict Drill is not yet complete. Mohammed's local README draft is on `conflict-drill-mohammed`; Sayed's independent conflicting edit and joint resolution remain outstanding.
+- GitHub Actions was subsequently verified: the latest recorded run on `main` after Sayed's merge succeeded.
 - R5, R6, and R7 are only partly demonstrated in an educational CLI program.
 
 ## Actual output of `python main.py`

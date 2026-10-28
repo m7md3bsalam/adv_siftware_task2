@@ -4,7 +4,7 @@ Actors: **Patient** and **Doctor**.
 
 The system is an educational in-memory booking program. Use cases describe intended workflow. They do not claim real medical-data security or production performance.
 
-**N = 3** (provisional).
+**N = 3** (confirmed with the instructor).
 
 ## Use case diagram
 
