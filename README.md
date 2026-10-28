@@ -4,7 +4,7 @@ Educational in-memory Python program for booking doctor appointments. A patient 
 
 This is a software-engineering lab, not a production medical system.
 
-**N = 3 is confirmed by the instructor.**
+**N = 3 is chosen by us.**
 
 ## Team
 
