@@ -18,13 +18,11 @@ Conflict Drill: UNCLAIMED
 
 ## GitHub Actions
 
-After the repository is published on GitHub, the workflow in `.github/workflows/ci.yml` compiles the code, runs `python -m unittest -v`, and runs `python main.py`.
+The workflow in `.github/workflows/ci.yml` compiles the code, runs `python -m unittest -v`, and runs `python main.py` on pushes to any branch and on pull requests.
 
-Replace `OWNER` and `REPO` in the badge URL after the GitHub repository exists:
+[![CI](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml/badge.svg)](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml)
 
-`https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg`
-
-CI status has not been verified on GitHub yet because this workspace was not connected to a remote at implementation time.
+The first GitHub Actions run will start after the initial push. All checks passed locally before publishing.
 
 ## How to run
 
