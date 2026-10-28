@@ -10,7 +10,7 @@ This is a software-engineering lab, not a production medical system.
 
 | Student ID | Student name | Branch | Pull request |
 | --- | --- | --- | --- |
-| 20240256 | Sayed Mamdouh | `sayed` (pending) | Pending |
+| 20240256 | Sayed Mamdouh | `sayed` | [#2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2) |
 | 20242296 | Mohammed Abdelsalam | `mohammed` | [#1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) |
 
 Conflict Drill: UNCLAIMED — complete with both team members and record their names after the real drill.
