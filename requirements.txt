@@ -10,5 +10,4 @@ R5: Patient medical data shall be accessible only to authorized staff.
 R6: Available appointment times shall be displayed within 2 seconds.
 R7: The application shall be usable on mobile phone screens.
 
-N (selected for this submission): 3
-# Confirm with the instructor if the assignment specifies a team-specific value.
+N (confirmed by the instructor): 3

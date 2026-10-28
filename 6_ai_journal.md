@@ -18,7 +18,7 @@ No official starter template was used. The instructor stated that no template is
 
 - The workspace `advsoft_task` contained no project files.
 - It was not a Git repository.
-- No assigned value of N was found. **Provisional N = 3** was chosen and documented. This must be confirmed against the instructor's board.
+- At initial implementation, no assigned value of N was found. N = 3 was selected for submission, and the instructor has since confirmed **N = 3**.
 - `python` (Microsoft Store alias) was not installed. `C:\msys64\ucrt64\bin\python.exe` reported **Python 3.14.8**.
 - Git **2.45.1** was available.
 - `gh` was not installed. The Cursor origin MCP namespace was in an error state, and `mcp_auth` did not complete within 30 seconds, so no GitHub repository was created from this session.
@@ -35,7 +35,7 @@ Checked that class names, statuses, N, occupancy, and upcoming-count rules match
 Traced R1–R7 through UC1–UC4, the class table, the class diagram, the sequence diagram, and the Python methods. Confirmed:
 
 - R1–R7 IDs are preserved.
-- N = 3 is used in requirements, use cases, diagrams, code, and tests.
+- The instructor-confirmed N = 3 is used in requirements, use cases, diagrams, code, and tests.
 - Sequence diagram `alt/else` paths match `BookingError` and status transitions.
 - Failed validation does not create an appointment.
 
@@ -83,8 +83,8 @@ GitHub Actions was **not** verified (no remote yet). No pull request URL exists 
 
 ## Remaining limitations
 
-- N is provisional.
-- Team names, IDs, branches, PR links, reviews, and the Conflict Drill are still TBD/UNCLAIMED.
+- N = 3 is confirmed by the instructor and is no longer pending confirmation.
+- Team names, IDs, branches, and PR links have since been recorded in README.md; a peer review has been submitted. The Conflict Drill is IN PROGRESS, pending Mohammed's independent draft and joint resolution of the real merge conflict.
 - No GitHub remote, pull request, or CI badge was verified in this journal's implementation phase.
 - R5, R6, and R7 are only partly demonstrated in an educational CLI program.
 
