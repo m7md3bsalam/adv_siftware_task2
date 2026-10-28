@@ -83,9 +83,10 @@ GitHub Actions was **not** verified (no remote yet). No pull request URL exists 
 
 ## Remaining limitations
 
-- N = 3 is confirmed by the instructor and is no longer pending confirmation.
-- Team names, IDs, branches, and PR links have since been recorded in README.md; a peer review has been submitted. The Conflict Drill is IN PROGRESS, pending Mohammed's independent draft and joint resolution of the real merge conflict.
-- No GitHub remote, pull request, or CI badge was verified in this journal's implementation phase.
+- N = 3 is confirmed by the instructor; requirements, use cases, implementation, and README reflect that confirmation.
+- Team branches and PRs were created and merged: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2). Sayed reviewed PR #1, and Mohammed left a comment on PR #2.
+- The Conflict Drill was completed and resolved jointly by Sayed Mamdouh ([PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3)) and Mohammed Abdelsalam ([PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4)). The real merge conflict between the two branches on the README Conflict Drill line was resolved collaboratively, preserving the confirmed N = 3 documentation.
+- GitHub Actions was verified: workflow runs on main and pull requests passed.
 - R5, R6, and R7 are only partly demonstrated in an educational CLI program.
 
 ## Actual output of `python main.py`

@@ -13,7 +13,9 @@ This is a software-engineering lab, not a production medical system.
 | 20240256 | Sayed Mamdouh | `sayed` | [#2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2) |
 | 20242296 | Mohammed Abdelsalam | `mohammed` | [#1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) |
 
-Conflict Drill: IN PROGRESS — Sayed Mamdouh has prepared this branch; Mohammed's independent draft and the joint conflict resolution are still pending.
+Peer-review comments have been exchanged: Sayed reviewed [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1), and Mohammed commented on [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2).
+
+Conflict Drill: **COMPLETE** — Performed and resolved jointly by Sayed Mamdouh (`sayed-conflict-drill`, [PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3)) and Mohammed Abdelsalam (`conflict-drill-mohammed`, [PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4)). Both team members pushed independent conflicting branches that edited the Conflict Drill status line in README.md alongside confirming N = 3; PR #3 was merged into `main`, creating a real merge conflict on PR #4. The team resolved the conflict collaboratively, preserving the confirmed N = 3 documentation across all project artifacts.
 
 ## GitHub Actions
 
@@ -21,7 +23,7 @@ The workflow in `.github/workflows/ci.yml` compiles the code, runs `python -m un
 
 [![CI](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml/badge.svg)](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml)
 
-GitHub Actions passed on the initial push. The CI badge reports the latest workflow status.
+The latest recorded GitHub Actions run on `main` after Sayed's merge passed.
 
 ## How to run
 
@@ -110,9 +112,9 @@ Declined appointments do not occupy slots and do not count toward N.
 
 ## Team GitHub workflow (must be done by real team members)
 
-The team PRs and peer-review activity are recorded above. The Conflict Drill is still in progress and will be recorded as complete only after both independently authored PRs are open and the team resolves their actual merge conflict.
+The team PRs, peer-review activity, and Conflict Drill are recorded above.
 
-1. N = 3 has been confirmed by the instructor.
-2. Each member opens their own branch and pull request, then replace the pending entries above with the actual PR links.
-3. Each member leaves a real review comment on a teammate's PR.
-4. Keep the Conflict Drill marked IN PROGRESS until both PRs are open and the actual conflict has been resolved together; only then record both participants and the resolution.
+1. N = 3 was confirmed by the instructor across requirements, use cases, implementation, and README.
+2. Both team members opened branches and merged pull requests, linked in the team table above: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2).
+3. Both team members exchanged real review comments: Sayed reviewed PR #1, and Mohammed reviewed PR #2.
+4. The Conflict Drill is COMPLETE: Sayed opened [PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3) and Mohammed opened [PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4) with conflicting edits. PR #3 was merged into `main`, the real merge conflict was reproduced on `conflict-drill-mohammed`, and resolved collaboratively by both team members.
