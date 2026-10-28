@@ -18,7 +18,7 @@ No official starter template was used. The instructor stated that no template is
 
 - The workspace `advsoft_task` contained no project files.
 - It was not a Git repository.
-- At initial implementation, no assigned value of N was found, so **N = 3** was documented as provisional. It was subsequently confirmed with the instructor, as noted under Remaining limitations.
+- At initial implementation, no assigned value of N was found. N = 3 was selected for submission, and the instructor has since confirmed **N = 3**.
 - `python` (Microsoft Store alias) was not installed. `C:\msys64\ucrt64\bin\python.exe` reported **Python 3.14.8**.
 - Git **2.45.1** was available.
 - `gh` was not installed. The Cursor origin MCP namespace was in an error state, and `mcp_auth` did not complete within 30 seconds, so no GitHub repository was created from this session.
@@ -35,7 +35,7 @@ Checked that class names, statuses, N, occupancy, and upcoming-count rules match
 Traced R1–R7 through UC1–UC4, the class table, the class diagram, the sequence diagram, and the Python methods. Confirmed:
 
 - R1–R7 IDs are preserved.
-- N = 3 is used in requirements, use cases, diagrams, code, and tests.
+- The instructor-confirmed N = 3 is used in requirements, use cases, diagrams, code, and tests.
 - Sequence diagram `alt/else` paths match `BookingError` and status transitions.
 - Failed validation does not create an appointment.
 
@@ -83,10 +83,10 @@ GitHub Actions was **not** verified (no remote yet). No pull request URL exists 
 
 ## Remaining limitations
 
-- N = 3 was subsequently confirmed with the instructor; the requirements, use cases, implementation, and README now record that confirmation.
-- Team branches and PRs were subsequently created and merged: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2). Sayed reviewed PR #1, and Mohammed left a comment on PR #2.
-- The real two-person Conflict Drill is not yet complete. Mohammed's local README draft is on `conflict-drill-mohammed`; Sayed's independent conflicting edit and joint resolution remain outstanding.
-- GitHub Actions was subsequently verified: the latest recorded run on `main` after Sayed's merge succeeded.
+- N = 3 is confirmed by the instructor; requirements, use cases, implementation, and README reflect that confirmation.
+- Team branches and PRs were created and merged: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2). Sayed reviewed PR #1, and Mohammed left a comment on PR #2.
+- The Conflict Drill was completed and resolved jointly by Sayed Mamdouh ([PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3)) and Mohammed Abdelsalam ([PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4)). The real merge conflict between the two branches on the README Conflict Drill line was resolved collaboratively, preserving the confirmed N = 3 documentation.
+- GitHub Actions was verified: workflow runs on main and pull requests passed.
 - R5, R6, and R7 are only partly demonstrated in an educational CLI program.
 
 ## Actual output of `python main.py`

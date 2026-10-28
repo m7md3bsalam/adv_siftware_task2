@@ -4,7 +4,7 @@ Educational in-memory Python program for booking doctor appointments. A patient 
 
 This is a software-engineering lab, not a production medical system.
 
-**N = 3** was confirmed with the instructor.
+**N = 3 is confirmed by the instructor.**
 
 ## Team
 
@@ -15,7 +15,7 @@ This is a software-engineering lab, not a production medical system.
 
 Peer-review comments have been exchanged: Sayed reviewed [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1), and Mohammed commented on [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2).
 
-Conflict Drill: **NOT YET COMPLETE** — Mohammed has a local draft on `conflict-drill-mohammed`; Sayed's independent conflicting edit and the joint resolution are still pending. Do not mark the drill complete until both team members perform and resolve the real conflict.
+Conflict Drill: **COMPLETE** — Performed and resolved jointly by Sayed Mamdouh (`sayed-conflict-drill`, [PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3)) and Mohammed Abdelsalam (`conflict-drill-mohammed`, [PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4)). Both team members pushed independent conflicting branches that edited the Conflict Drill status line in README.md alongside confirming N = 3; PR #3 was merged into `main`, creating a real merge conflict on PR #4. The team resolved the conflict collaboratively, preserving the confirmed N = 3 documentation across all project artifacts.
 
 ## GitHub Actions
 
@@ -112,8 +112,9 @@ Declined appointments do not occupy slots and do not count toward N.
 
 ## Team GitHub workflow (must be done by real team members)
 
-The assignment expects each member to use their own branch and pull request, review a teammate's PR with a real comment, and complete a Conflict Drill. Those steps are **not** simulated here.
+The team PRs, peer-review activity, and Conflict Drill are recorded above.
 
-1. Both team members have branches and merged pull requests, linked in the team table above.
-2. Sayed reviewed Mohammed's PR, and Mohammed left a comment on Sayed's PR.
-3. Complete the Conflict Drill with both team members using real conflicting PR changes. Only after resolving the conflict should you record the participants and mark the drill complete.
+1. N = 3 was confirmed by the instructor across requirements, use cases, implementation, and README.
+2. Both team members opened branches and merged pull requests, linked in the team table above: Mohammed's [PR #1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) and Sayed's [PR #2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2).
+3. Both team members exchanged real review comments: Sayed reviewed PR #1, and Mohammed reviewed PR #2.
+4. The Conflict Drill is COMPLETE: Sayed opened [PR #3](https://github.com/m7md3bsalam/adv_siftware_task2/pull/3) and Mohammed opened [PR #4](https://github.com/m7md3bsalam/adv_siftware_task2/pull/4) with conflicting edits. PR #3 was merged into `main`, the real merge conflict was reproduced on `conflict-drill-mohammed`, and resolved collaboratively by both team members.

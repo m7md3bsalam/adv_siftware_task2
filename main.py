@@ -1,6 +1,6 @@
 """Doctor Appointment Booking System (educational in-memory implementation).
 
-N (MAX_UPCOMING_APPOINTMENTS) is 3, as confirmed with the instructor.
+N (MAX_UPCOMING_APPOINTMENTS) = 3 is confirmed by the instructor.
 
 Upcoming appointment policy
 ---------------------------
@@ -40,7 +40,7 @@ from datetime import datetime, timedelta
 from enum import Enum
 
 
-# N = 3, confirmed with the instructor.
+# N = 3 is confirmed by the instructor.
 MAX_UPCOMING_APPOINTMENTS = 3
 
 
