@@ -2,7 +2,7 @@
 
 This document preserves the original requirement wording and IDs for the Doctor Appointment Booking System.
 
-**N (provisional) = 3.** This value was not found in the workspace or provided instructions. Confirm it against the instructor's assigned team value before final submission. The same N is used in the design, `main.py`, tests, and README.
+**N = 3 is confirmed by the instructor.** The same confirmed value is used in the design, `main.py`, tests, and README.
 
 ## Functional requirements
 
@@ -24,7 +24,7 @@ Acceptance notes: only the assigned doctor may decide, and only while the appoin
 ### R4
 A patient can have at most N upcoming appointments at any given time.
 
-Acceptance notes: **N = 3** (provisional). Upcoming means PENDING or ACCEPTED with a slot start time strictly after the current clock. DECLINED and past appointments do not count.
+Acceptance notes: **N = 3** (confirmed by the instructor). Upcoming means PENDING or ACCEPTED with a slot start time strictly after the current clock. DECLINED and past appointments do not count.
 
 ## Non-functional requirements
 

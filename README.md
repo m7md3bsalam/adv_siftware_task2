@@ -4,7 +4,7 @@ Educational in-memory Python program for booking doctor appointments. A patient 
 
 This is a software-engineering lab, not a production medical system.
 
-**N = 3** is the value selected for this submission. Confirm it with the instructor if the assignment provides a team-specific value.
+**N = 3 is confirmed by the instructor.**
 
 ## Team
 
@@ -13,7 +13,7 @@ This is a software-engineering lab, not a production medical system.
 | 20240256 | Sayed Mamdouh | `sayed` | [#2](https://github.com/m7md3bsalam/adv_siftware_task2/pull/2) |
 | 20242296 | Mohammed Abdelsalam | `mohammed` | [#1](https://github.com/m7md3bsalam/adv_siftware_task2/pull/1) |
 
-Conflict Drill: UNCLAIMED — complete with both team members and record their names after the real drill.
+Conflict Drill: IN PROGRESS — Sayed Mamdouh has prepared this branch; Mohammed's independent draft and the joint conflict resolution are still pending.
 
 ## GitHub Actions
 
@@ -110,9 +110,9 @@ Declined appointments do not occupy slots and do not count toward N.
 
 ## Team GitHub workflow (must be done by real team members)
 
-The assignment expects each member to use their own branch and pull request, review a teammate's PR with a real comment, and complete a Conflict Drill. Those steps are **not** simulated here.
+The team PRs and peer-review activity are recorded above. The Conflict Drill is still in progress and will be recorded as complete only after both independently authored PRs are open and the team resolves their actual merge conflict.
 
-1. Confirm the selected N = 3 with the instructor if the assignment provides a team-specific value.
+1. N = 3 has been confirmed by the instructor.
 2. Each member opens their own branch and pull request, then replace the pending entries above with the actual PR links.
 3. Each member leaves a real review comment on a teammate's PR.
-4. Complete the Conflict Drill with real PRs, then replace `UNCLAIMED` with the participating names.
+4. Keep the Conflict Drill marked IN PROGRESS until both PRs are open and the actual conflict has been resolved together; only then record both participants and the resolution.
