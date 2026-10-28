@@ -4,17 +4,16 @@ Educational in-memory Python program for booking doctor appointments. A patient 
 
 This is a software-engineering lab, not a production medical system.
 
-**N is provisional (N = 3).** It was not found in the workspace or instructor files. Confirm it against the instructor's assigned team value before submission.
+**N = 3** is the value selected for this submission. Confirm it with the instructor if the assignment provides a team-specific value.
 
 ## Team
 
-Replace the TBD values with the real team information. Do not invent IDs, names, or pull request links.
-
 | Student ID | Student name | Branch | Pull request |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| 20240256 | Sayed Mamdouh | `sayed` (pending) | Pending |
+| 20242296 | Mohammed Abdelsalam | `mohammed` | Pending |
 
-Conflict Drill: UNCLAIMED
+Conflict Drill: UNCLAIMED — complete with both team members and record their names after the real drill.
 
 ## GitHub Actions
 
@@ -22,7 +21,7 @@ The workflow in `.github/workflows/ci.yml` compiles the code, runs `python -m un
 
 [![CI](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml/badge.svg)](https://github.com/m7md3bsalam/adv_siftware_task2/actions/workflows/ci.yml)
 
-The first GitHub Actions run will start after the initial push. All checks passed locally before publishing.
+GitHub Actions passed on the initial push. The CI badge reports the latest workflow status.
 
 ## How to run
 
@@ -113,10 +112,7 @@ Declined appointments do not occupy slots and do not count toward N.
 
 The assignment expects each member to use their own branch and pull request, review a teammate's PR with a real comment, and complete a Conflict Drill. Those steps are **not** simulated here.
 
-1. Confirm N with the instructor if needed.
-2. Fill in the team table with real student IDs, names, branches, and PR links.
-3. Create a public GitHub repository (suggested name: `doctor-appointment-booking-system`).
-4. Push this project.
-5. Each member opens their own branch and pull request.
-6. Each member leaves a real review comment on a teammate's PR.
-7. Complete the Conflict Drill with real PRs, then replace `UNCLAIMED` with the participating names.
+1. Confirm the selected N = 3 with the instructor if the assignment provides a team-specific value.
+2. Each member opens their own branch and pull request, then replace the pending entries above with the actual PR links.
+3. Each member leaves a real review comment on a teammate's PR.
+4. Complete the Conflict Drill with real PRs, then replace `UNCLAIMED` with the participating names.
